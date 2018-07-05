@@ -1,0 +1,3 @@
+prefix = "download"
+bind = ":8725"
+redis = ":6379"
