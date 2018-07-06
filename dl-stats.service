@@ -7,7 +7,7 @@ Requires=networking.service
 TimeoutStartSec=0
 Restart=always
 WorkingDirectory=/path/to/dir/with/config
-ExecStart=/path/to/dir/with/config/dl-stats --configfile settings.toml
+ExecStart=/path/to/dir/with/config/dl-stats --configfile=settings.toml
 
 [Install]
 WantedBy=multi-user.target
