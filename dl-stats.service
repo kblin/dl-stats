@@ -1,0 +1,13 @@
+[Unit]
+Description=Download stats reporter
+After=networking.service
+Requires=networking.service
+
+[Service]
+TimeoutStartSec=0
+Restart=always
+WorkingDirectory=/path/to/dir/with/config
+ExecStart=/path/to/dir/with/config/dl-stats --configfile settings.toml
+
+[Install]
+WantedBy=multi-user.target

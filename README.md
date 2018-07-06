@@ -47,6 +47,9 @@ Service configuration
 Use the command line options or a TOML file to set the configuration.
 See [`settings.toml`](settings.toml) for an example.
 
+You can use the dl-stats.service file to run this as a systemd service. Fix the paths, of course.
+
+
 License
 -------
 
