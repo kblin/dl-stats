@@ -74,7 +74,7 @@ func main() {
 	config := &CliConfig{
 		Config: Config{
 			Redis:  ":6379",
-			Prefix: "download",
+			Prefix: "dl-stats",
 			Bind:   ":8725",
 		},
 		ConfigFile: "settings",
